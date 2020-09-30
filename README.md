@@ -2,12 +2,13 @@
 
 <!--enter links to project when finished-->
 
-[Deployed Project]()  
-[Github Repo]()
+[Deployed Project](https://puakehaulani.github.io/5-Work-Day-Scheduler/)  
+[Github Repo](https://github.com/puakehaulani/5-Work-Day-Scheduler)
 
 ## About the Project
 
-**Work Day Scheduler** is Homework 5 for UW Coding Bootcamp. We were given a [User Story](https://uwa.bootcampcontent.com/UWA-Bootcamp/uw-sea-fsf-pt-08-2020-u-c/tree/master/class-content/05-Third-Party-APIs/02-Homework#user-story) and [Acceptance Criteria](https://uwa.bootcampcontent.com/UWA-Bootcamp/uw-sea-fsf-pt-08-2020-u-c/tree/master/class-content/05-Third-Party-APIs/02-Homework#acceptance-criteria) to follow. We then had to build the quiz from the ground up.
+**Work Day Scheduler** is Homework 5 for UW Coding Bootcamp. We were given a [User Story](https://uwa.bootcampcontent.com/UWA-Bootcamp/uw-sea-fsf-pt-08-2020-u-c/tree/master/class-content/05-Third-Party-APIs/02-Homework#user-story) and [Acceptance Criteria](https://uwa.bootcampcontent.com/UWA-Bootcamp/uw-sea-fsf-pt-08-2020-u-c/tree/master/class-content/05-Third-Party-APIs/02-Homework#acceptance-criteria) to follow.  
+We were provided with the index.html and style.css files to start with. Our goal was to create a dynamic day planner for a single work day using the Moment.js library.
 
 <!--enter screenshots when project finished-->
 

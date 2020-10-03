@@ -7,10 +7,28 @@ dateEl.innerHTML = today.format("dddd, MMMM Do");
 // stuff to do not necessarily in order
 
 // a. Store input in local storage?
-localStorage.setItem('hour', 'text');
+// var id = $(".input-group-text hour")
+
+$(".saveBtn").click(function (event) {
+    console.log(event.target);
+    console.log($(this).parent().siblings(".text-input").val());
+    let inputVal = $(this).parent().siblings(".text-input").val();
+    let btnKey = $(this).attr("id");
+    localStorage.setItem(btnKey, inputVal);
+})
+
 // ai. Key should be the time slot so it is unchanged, but if the user changes the info in the text box it will update in the right spot and delete old content by updating the value only.
 // b. Get input from local storage and return in text area
-var VARNAME = localStorage.getItem('hour');
+for (var i = 0; i < localStorage.length; i++) {
+    let keyName = localStorage.key(i);
+    let valContent = localStorage.getItem(localStorage.key(i));
+
+    console.log(localStorage.getItem(localStorage.key(i)));
+    console.log(localStorage.key(i));
+    $("#" + keyName).parent().siblings(".text-input").val(valContent);
+}
+
+// var VARNAME = localStorage.getItem('hour');
 // 3. Change background color styling on li element to match time
 // $("").replaceWith()
 // gray is past, green is future, red is current? styles inside css given

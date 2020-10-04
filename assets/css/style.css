@@ -4,17 +4,15 @@ body {
     line-height: 1;
 }
 
-textarea {
+.text-input {
     background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
+    border: 1px dotted gray;
+    width: 70%;
+
 }
 
 .jumbotron {
-    text-align: center;
+    text-align: left;
     background-color: transparent;
     color: black;
     border-radius: 0;
@@ -25,22 +23,20 @@ textarea {
     white-space: pre-wrap;
 }
 
-.time-block {
-    text-align: center;
-    border-radius: 15px;
+.row {
+    /* white-space: pre-wrap; */
+    height: 80px;
+    /* border-top: 1px solid white; */
+
 }
 
-/* .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;
-    ;
-} */
-
-.hour {
+.input-group-text {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    border-radius: 0;
+    width: 70px;
+
 }
 
 .past {
@@ -64,6 +60,7 @@ textarea {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+
 }
 
 .saveBtn i:hover {

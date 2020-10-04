@@ -5,10 +5,8 @@ body {
 }
 
 .text-input {
-    background: transparent;
     border: 1px dotted gray;
     width: 70%;
-
 }
 
 .jumbotron {
@@ -24,14 +22,11 @@ body {
 }
 
 .row {
-    /* white-space: pre-wrap; */
     height: 80px;
-    /* border-top: 1px solid white; */
-
 }
 
 .input-group-text {
-    background-color: #ffffff;
+
     color: #000000;
     border-top: 1px dashed #000000;
     border-radius: 0;
